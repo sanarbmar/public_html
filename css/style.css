@@ -29,6 +29,25 @@ border: 2px solid red;
 	margin: auto;
 	
 	}
+
+.section-aliados{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 18px;
+	justify-content: center;
+}
+.container-aliados{
+	inline-size: 15%;
+	
+}
+.marginBottom{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.container-aliados img{
+	inline-size: 100%;
+	block-size: 100%;
+}
 a:focus,
 button:focus {
 	outline: none !important;
